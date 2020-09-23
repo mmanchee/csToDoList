@@ -1,16 +1,30 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using ToDoList.Models;
 
-namespace ProjectName.Tests
+namespace ToDoList.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class ItemTests
   {
+
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void ItemConstructor_CreatesInstanceOfItem_Item()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      Item newItem = new Item();
+      Assert.AreEqual(typeof(Item), newItem.GetType());
+    }
+    [TestMethod]
+public void GetDescription_ReturnsDescription_String()
+    {
+      //Arrange
+      string description = "Walk the dog.";
+      Item newItem = new Item(description);
+
+      //Act
+      string result = newItem.Description;
+
+      //Assert
+      Assert.AreEqual(description, result);
     }
   }
 }
