@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {}
+    "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {
+    "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
+        "projectUniqueName": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
         "projectName": "ToDoList.Tests",
-        "projectPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
+        "projectPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
         "packagesPath": "C:\\Users\\mikem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList.Tests\\obj\\",
+        "outputPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
-                "projectPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList\\ToDoList.csproj"
+              "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+                "projectPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+    "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+        "projectUniqueName": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+        "projectPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
         "packagesPath": "C:\\Users\\mikem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\Week-8\\ToDoList.Solution\\ToDoList\\obj\\",
+        "outputPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -105,6 +105,17 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
