@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {}
+    "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {
+    "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
         "projectName": "ToDoList.Tests",
-        "projectPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
+        "projectPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList.Tests\\ToDoList.Tests.csproj",
         "packagesPath": "C:\\Users\\mikem\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList.Tests\\obj\\",
+        "outputPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
-                "projectPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj"
+              "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+                "projectPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList\\ToDoList.csproj"
               }
             }
           }
@@ -45,15 +45,15 @@
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[1.3.2, )"
+              "version": "[1.2.0, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[1.3.2, )"
+              "version": "[1.2.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[15.9.0, )"
+              "version": "[15.0.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
+    "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+        "projectUniqueName": "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+        "projectPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
         "packagesPath": "C:\\Users\\mikem\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mikem\\Desktop\\coding-practice\\Week-9\\ToDoList.Solution\\ToDoList\\obj\\",
+        "outputPath": "C:\\Users\\mikem\\Desktop\\coding-practice\\ToDoList.Solution\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -121,6 +121,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[0.69.0, )"
             }
           },
           "imports": [
